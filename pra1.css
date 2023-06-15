@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    font-family: 'Poor Story', cursive;
+    color:rgb(0, 110, 255)
+}
+main{
+    background-color: rgb(220, 239, 245);
+}
+img, iframe{
+    border-radius: 15px 15px;
+}
+a{
+    text-decoration: none;
+    padding: 3px 10px;
+    color: aliceblue;
+}
+header>h1{
+    text-align: center;
+    background-color: rgba(46, 98, 219, 0.784);
+    padding: 3%;
+    color: aliceblue;
+}
+header nav{
+    background-color: rgb(58, 107, 230);
+    padding: 20px;
+}
+header nav ul li{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+main section{
+    padding: 30px;
+}
+
+main section p, main section h3{
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(220, 239, 245);
+    text-align: center;
+    /* background-color: rgb(70, 64, 64); */
+    padding: 30px;
+    color: aliceblue;
+}
+
+header nav>div{display:none;}
+@media screen and (max-width: 768px) {
+    header nav ul li{display:none;}
+    
+    header nav>div{
+        display: inline-block;
+        cursor: pointer;
+    }
+    header nav div hr{
+        margin: 7px;
+        width: 25px;
+        border:1px solid beige;
+    }
+
+    main section iframe{
+       width: 500px;
+    }
+
+}
